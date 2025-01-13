@@ -1,4 +1,4 @@
-class PlatziReactive {
+class MiniVueReactive {
   /*
     options:
       data() => { ... }
@@ -20,8 +20,8 @@ class PlatziReactive {
   pModel() {}
 }
 
-var Platzi = {
+var MiniVue = {
   createApp(options) {
-    return new PlatziReactive(options);
+    return new MiniVueReactive(options);
   }
 };

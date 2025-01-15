@@ -1,46 +1,70 @@
-# Vue 3 Practice Project
+# Vue 3 Learning Project
 
-This project is designed to practice key concepts of the **Vue 3** framework, based on a learning course. It uses the Vue CDN for quick and easy setup.
+This project was created as a practice to learn Vue 3 and its fundamentals. It contains practical examples and mini applications that explore different concepts and patterns such as the use of **Proxy**, **Reflect**, **Option API**, and **Composition API**.
 
-## Topics Covered
+## Project Structure
 
-- **Proxy in Vue:** How Vue uses proxies for reactivity.
-- **Reactivity with `effect`, `track`, and `trigger`:** Exploring the fundamentals of reactivity.
-- **Expressions and Attributes:** Using and binding data in templates.
-- **Conditional Rendering and List Rendering:** Dynamically managing content.
-- **Event Handling:** Responding to user interactions.
-- **`data()` and `ref()`:** Differences and use cases.
-- **Option API and Composition API:** Comparison and practical examples.
+### 1. `proxy_example`
+Examples of how to use the `Proxy` class in JavaScript, which is one of the foundational concepts of reactivity in Vue 3.
 
-## Setup
+### 2. `reflect_example`
+Examples of how to use the `Reflect` class in JavaScript, complementing the work of `Proxy` in reactivity.
 
-This project uses the official Vue CDN for a quick start:
+### 3. `options`
+A mini ecommerce built using Vue 3's **Option API**.  
+It covers concepts like:
+- `data()`
+- `watch()`
 
-```html
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+### 4. `composition`
+A mini ecommerce built using Vue 3's **Composition API**.  
+It covers concepts like:
+- `ref()`
+- `computed()`
+- `reactive()`
+- Components
+
+---
+
+## Screenshots
+
+### Mini ecommerce with Option API
+![Option API Screenshot](https://images.edgardoponce.com/vue3-practice/option_api.png)
+
+### Mini ecommerce with Composition API
+![Composition API Screenshot](https://images.edgardoponce.com/vue3-practice/composition_api.png)
+
+_Add screenshots of the applications here to show how they work._
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/vue3-learning-project.git
+    ```
+2. Navigate to the project directory:
+```bash
+cd vue3-learning-project/composition
+or
+cd vue3-learning-project/options
 ```
-No dependencies or additional tools are required. Just open the HTML file in your browser and start exploring.
+3. Open the project folder in VSCode.
+4. Install the Live Server extension in VSCode (if you don't have it already).
+5. Right-click on index.html and select "Open with Live Server".
+6. Your browser will open automatically with the project running at http://localhost:5500 (or another port).
 
-## Project Goals
 
-1. Understand how reactivity works in Vue 3.
-2. Experiment with the different APIs provided by the framework.
-3. Get familiar with developing basic components.
-4. Gain confidence working directly with Vue without a build tool like Vite or Webpack.
+## Technologies Used
 
-## Project Goals
+- **Vue 3**: The main framework for building user interfaces.
+- **JavaScript (ES6)**: Use of `Proxy` and `Reflect`.
+- **Tailwind CSS**: For styling and design in the ecommerce app.
+- **Vite**: A fast and lightweight development tool.
 
-1. Clone this repository.
-2. Open index.html in any modern browser.
-3. Follow the instructions in the code comments to explore each feature.
+## Next Steps
 
-## Project Goals
-
-Vue 3 Official Documentation: https://v3.vuejs.org/
-
-Vue 3 Tutorial: https://v3.vuejs.org/guide/introduction.html
-
-Vue 3 API Reference: https://v3.vuejs.org/api/index.html
-
-Vue 3 CDN: https://unpkg.com/vue@3/dist/vue.global.js
-
+- Improve the visual design of the applications.
+- Add more practical examples for both Option API and Composition API.
+- Include unit tests for each of the components.

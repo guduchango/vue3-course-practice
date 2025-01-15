@@ -1,0 +1,78 @@
+[
+    {
+      "id": "1",
+      "name": "Camara",
+      "price": 500000,
+      "stock": 4,
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam laborum perferendis. Numquam, maiores qui nobis natus iusto dolor facere alias dicta voluptates ut quia libero facilis, delectus vitae soluta!",
+      "images": [
+        {
+          "image": "https://fakeimg.pl/300/771796",
+          "thumbnail": "https://fakeimg.pl/150/771796"
+        },
+        {
+          "image": "https://fakeimg.pl/300/92c952",
+          "thumbnail": "https://fakeimg.pl/150/92c952"
+        }
+      ],
+      "quantity": 1,
+      "offer": true
+    },
+    {
+      "id": "2",
+      "name": "Microfono",
+      "price": 900000,
+      "stock": 2,
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam laborum perferendis. Numquam, maiores qui nobis natus iusto dolor facere alias dicta voluptates ut quia libero facilis, delectus vitae soluta!",
+      "images": [
+        {
+          "image": "https://fakeimg.pl/300/24f355",
+          "thumbnail": "https://fakeimg.pl/150/24f355"
+        },
+        {
+          "image": "https://fakeimg.pl/300/d32776",
+          "thumbnail": "https://fakeimg.pl/150/d32776"
+        },
+        {
+          "image": "https://fakeimg.pl/300/f66b97",
+          "thumbnail": "https://fakeimg.pl/150/f66b97"
+        }
+      ],
+      "quantity": 1,
+      "new": true
+    },
+    {
+      "id": "3",
+      "name": "Audifonos",
+      "price": 250000,
+      "stock": 1,
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam laborum perferendis. Numquam, maiores qui nobis natus iusto dolor facere alias dicta voluptates ut quia libero facilis, delectus vitae soluta!",
+      "images": [
+        {
+          "image": "https://fakeimg.pl/300/f66b97",
+          "thumbnail": "https://fakeimg.pl/150/f66b97"
+        }
+      ],
+      "quantity": 1,
+      "new": true,
+      "offer": true
+    },
+    {
+      "id": "4",
+      "name": "Luces LED",
+      "price": 250000,
+      "stock": 1,
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam laborum perferendis. Numquam, maiores qui nobis natus iusto dolor facere alias dicta voluptates ut quia libero facilis, delectus vitae soluta!",
+      "images": [
+        {
+          "image": "https://fakeimg.pl/300/b0f7cc",
+          "thumbnail": "https://fakeimg.pl/150/b0f7cc"
+        },
+        {
+          "image": "https://fakeimg.pl/300/54176f",
+          "thumbnail": "https://fakeimg.pl/150/54176f"
+        }
+      ],
+      "quantity": 1
+    }
+  ]

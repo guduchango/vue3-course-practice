@@ -60,8 +60,6 @@ cd vue3-learning-project/options
 
 - **Vue 3**: The main framework for building user interfaces.
 - **JavaScript (ES6)**: Use of `Proxy` and `Reflect`.
-- **Tailwind CSS**: For styling and design in the ecommerce app.
-- **Vite**: A fast and lightweight development tool.
 
 ## Next Steps
 

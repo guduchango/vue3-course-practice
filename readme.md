@@ -34,8 +34,6 @@ It covers concepts like:
 ### Mini ecommerce with Composition API
 ![Composition API Screenshot](https://images.edgardoponce.com/vue3-practice/composition_api.png)
 
-_Add screenshots of the applications here to show how they work._
-
 ---
 
 ## Installation
